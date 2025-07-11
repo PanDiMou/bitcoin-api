@@ -15,7 +15,7 @@ public class WebClientConfig {
                 .baseUrl("http://127.0.0.1:8332")
                 .defaultHeader(HttpHeaders.CONTENT_TYPE, "application/json")
                 .defaultHeader(HttpHeaders.AUTHORIZATION,
-                        "Basic cGFuZGltb3U6ZlpFZ2ZqaG1uQnN4N3BhbmRpbW91N0RUR2c2OTVnZjF6ZTJnZmQ3")
+                        "Basic")
                 .build();
     }
     //##################################################################################################################
