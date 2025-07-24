@@ -2,4 +2,9 @@ logging:
   level:
     org.springframework.web: DEBUG
     org.springframework.validation: DEBUG
-########################################################################################################################
+rpc:
+  configuration:
+    url: ${RPC_URL}
+    port: ${RPC_PORT}
+    username: ${RPC_USERNAME}
+    password: ${RPC_PASSWORD}
